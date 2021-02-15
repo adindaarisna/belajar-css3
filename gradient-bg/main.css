@@ -1,0 +1,10 @@
+html{
+    height: 100%;
+    overflow: hidden;
+}
+
+body{
+    height: 100%;
+    background: rgb(251,63,221);
+    background: radial-gradient(circle, rgba(251,63,221,0.835171568627451) 0%, rgba(70,245,252,0.8939950980392157) 100%);
+}

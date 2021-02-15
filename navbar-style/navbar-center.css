@@ -1,0 +1,71 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap');
+
+:root{
+    --primary:rgb(124, 179, 66);
+    --light-primary: rgba(124, 179, 66, 0.6);
+    --secondary:#ffee58;
+    --dark-color:#616161;
+    --light-color:#eeeeee;
+}
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    background-color: var(--light-color);
+}
+
+li, a, button{
+    font-family: "Montserrat", sans-serif;
+    font-weight: 500;
+    font-size: 1rem;
+    color: var(--dark-color);
+    text-decoration: none;
+}
+
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    /* padding: number-of-top-buttom number-of-left-right */
+    padding: 30px 5%;
+}
+
+.logo{
+    cursor: pointer;
+    max-width: 15vw;
+}
+
+.navlinks{
+    list-style: none;
+}
+
+.navlinks li{
+    /* ngebuat posisi menyamping */
+    display: inline-block;
+    padding: 0 30px;
+}
+
+.navlinks li a{
+    transition: all 0.3s ease 0s;
+}
+.navlinks li a:hover{
+    color: var(--light-color);
+    border-radius: 30px;
+    background: var(--primary);
+    padding: 10px 40px;
+}
+
+button{
+    padding: 10px 40px;
+    background-color: var(--primary);
+    color: var(--light-color);
+    border: none;
+    border-radius: 30px;
+    cursor: pointer;
+    transition: all 0.3s ease 0s;
+}
+
+button:hover{
+    background: var(--light-primary);
+}

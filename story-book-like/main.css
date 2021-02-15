@@ -1,0 +1,67 @@
+body{
+    text-align: justify;
+    font-size: 1rem;
+    width: 60%;
+    margin: auto;
+}
+
+.intro-1{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.intro-1::first-letter{
+    font-size: 3rem;
+    font-weight: bolder;
+    font-style: italic;
+}
+
+.intro-2{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.intro-2::first-letter{
+    /* font: 200px;
+    display: block;
+    float: left;
+    line-height: 0.5;
+    margin: 15px 15px 10px 0; */
+    font-family: 'Dancing Script', cursive;
+    font-size: 3em;
+    font-weight: bolder;
+}
+
+.intro-3{
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.intro-3::first-letter{
+    float: left;
+    font-size: 4em;
+    color: darkturquoise;
+    margin-left: 0px;
+    margin-right: 10px;
+    padding-left: 0px;
+    padding-right: 10px;
+    font-weight: bolder;
+}
+
+.intro-4::first-letter{
+    font-size: 4rem;
+    float: left;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.intro-5::first-letter{
+    font-size: 4rem;
+    float: left;
+    border: black 5px solid;
+    background: lightgoldenrodyellow;
+    color: red;
+    margin-left: 0px;
+    margin-right: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+    font-weight: bolder;
+}
+

@@ -1,0 +1,63 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    height: 100vh;
+    width: 100%;
+    background: rgb(29, 29, 29);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.main{
+    width: fit-content;
+    display: grid;
+    grid-template-areas: 
+    "boxone boxtwo"
+    "boxthree boxfour";
+}
+
+body{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: white;
+}
+
+.box{
+    width: 300px;
+    height: 300px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 20px;
+    margin: 20px;
+    border-radius: 10px;
+    transition: 0.05s ease-in-out;
+    back
+}
+
+.box:hover{
+    transform: scale(1.05);
+}
+
+.b-one{
+    grid-area: boxone;
+    background: linear-gradient(to top, rgba(0, 0, 0, 0.9), rgba(0, 0, 0, 0.2),  rgba(0, 0, 0, 0.2)), url("element/bread-1.jpg") no-repeat center / cover;
+}
+
+.b-two{
+    grid-area: boxtwo;
+    background: linear-gradient(to top, rgba(0, 0, 0, 0.9), rgba(0, 0, 0, 0.2),  rgba(0, 0, 0, 0.2)), url("element/bread-2.jpg") no-repeat center / cover;
+}
+
+.b-three{
+    grid-area: boxthree;
+    background: linear-gradient(to top, rgba(0, 0, 0, 0.9), rgba(0, 0, 0, 0.2),  rgba(0, 0, 0, 0.2)), url("element/bread-3.jpg") no-repeat center / cover;
+}
+
+.b-four{
+    grid-area: boxfour;
+    background: linear-gradient(to top, rgba(0, 0, 0, 0.9), rgba(0, 0, 0, 0.2),  rgba(0, 0, 0, 0.2)), url("element/bread-4.jpg") no-repeat center / cover;
+}

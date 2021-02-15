@@ -1,0 +1,143 @@
+@import url("https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400&display=swap");
+
+:root {
+  --white: #fafafa;
+  --blue: #5078af;
+}
+body {
+  background: var(--white);
+  padding: 0;
+  margin: 0;
+  font-family: "Quicksand", sans-serif;
+}
+
+h1 {
+  padding: 0;
+  margin: 0;
+  font-size: 2rem;
+}
+
+h2 {
+  padding: 0;
+  margin: 0;
+  font-size: 1.5rem;
+}
+
+h3 {
+  font-size: 1rem;
+}
+
+footer {
+  background: var(--blue);
+  color: var(--white);
+}
+
+.footer-one {
+  display: flex;
+  width: 60%;
+  margin-left: auto;
+  margin-right: auto;
+}
+.footer-one .sec-one {
+  flex: 1;
+}
+
+.footer-one .sec-two {
+  flex: 1;
+}
+
+.footer-one h1 {
+  font-size: 2rem;
+}
+
+.footer-one h2 {
+  font-size: 1rem;
+}
+
+.footer-two {
+  display: flex;
+  width: 60%;
+  margin: auto;
+  padding-bottom: 1rem;
+}
+
+.footer-three{
+  width: 60%;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 3vh;
+  display: flex;
+  justify-content: space-around;
+}
+
+.footer-four {
+  width: 60%;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 3vh;
+  display: flex;
+  justify-content: space-around;
+}
+
+.footer-four .sec-one {
+  text-align: justify;
+  text-align: center;
+  flex-basis: 1;
+}
+
+.footer-four .sec-two {
+  text-align: justify;
+  text-align: center;
+  flex-basis: 2;
+}
+
+.footer-four .sec-three {
+  text-align: justify;
+  text-align: center;
+  flex-basis: 2;
+}
+
+.footer-five {
+  width: 60%;
+  margin-left: auto;
+  margin-right: auto;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+}
+
+.footer-five .sec-one {
+  text-align: justify;
+  text-align: center;
+}
+
+.fa-instagram {
+  font-size: 2rem;
+  padding: 1rem;
+}
+.fa-instagram:hover {
+  color:var(--blue);
+  background:var(--white);
+  border-radius: 50px;
+}
+
+.fa-phone-alt {
+  font-size: 2rem;
+  padding: 1rem;
+}
+
+.fa-phone-alt:hover {
+  color:var(--blue);
+  background:var(--white);
+  border-radius: 50px;
+}
+
+.fa-whatsapp {
+  font-size: 2rem;
+  padding: 1rem;
+}
+
+.fa-whatsapp:hover {
+  color:var(--blue);
+  background:var(--white);
+  border-radius: 50px;
+}

@@ -1,0 +1,39 @@
+.box{
+    width: 100px;
+    height: 100px;
+    float: left;
+    font-size: 2rem;
+}
+
+.box-red{
+    background-color: red;
+}
+
+.box-pink{
+    background-color: pink;
+}
+
+.box-green{
+    background-color: greenyellow;
+}
+
+.box-blue{
+    background-color: blue;
+}
+
+.box-yellow{
+    background-color: yellow;
+    clear: both;
+}
+
+.box-black{
+    background-color: black;
+}
+
+.box-grey{
+    background-color: grey;
+}
+
+.box-salmon{
+    background-color: lightsalmon;
+}

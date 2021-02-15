@@ -1,0 +1,22 @@
+.fab{
+    font-size: 3rem;
+}
+.fab:hover{
+    color: lightsteelblue;
+}
+
+.fa-home{
+    font-size: 3rem;
+}
+
+.fa-home:hover{
+    color: lightsalmon;
+}
+
+.fa-phone-alt{
+    font-size: 3rem;
+}
+
+.fa-phone-alt:hover{
+    color: lightgreen;
+}

@@ -1,0 +1,33 @@
+.uno{
+    background-color: lightsalmon;
+    color: black;
+    display: block;
+}
+
+.dos{
+    background-color: lightgreen;
+    margin: auto;
+}
+
+.tres p{
+    background-color: lightgreen;
+    margin: auto;
+    display:block;
+}
+
+.tres h1{
+    /* you can edit the height in h1 and other block element */
+    height: 30px;
+}
+
+.quatro{
+    width: 50%;
+    background-color: lightgreen;
+}
+
+.cinco a{
+    /* you can not change the height in display inline */
+    /* can not edit margin top & button */
+    display: inline;
+    margin: 30px;
+}

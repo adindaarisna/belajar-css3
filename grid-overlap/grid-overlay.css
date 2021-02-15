@@ -1,0 +1,27 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.main{
+    display: grid;
+    height: 100vh;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr 1fr 1fr;
+}
+
+img{
+    height: 100%;
+    width: 100%;
+}
+
+.main .one{
+    grid-row: 2/4;
+    grid-column: 3/5;
+}
+
+.main .two{
+    grid-row: 3/5;
+    grid-column: 2/4;
+}
