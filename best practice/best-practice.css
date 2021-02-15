@@ -1,0 +1,53 @@
+/*--------------------*/
+/*--- Global Style ---*/
+/*--------------------*/
+
+/* -------------
+   General Style
+   ------------- */
+
+/* -------------
+   Table of content
+   1. General style
+   2. Typography
+   3. Components
+      3.1. Button
+      3.2. Checkbox
+   ------------- */
+
+
+/* Button */
+
+
+/*--------------another type of seperation in css-----------------*/
+
+/*  General Styles  */
+body {
+
+}
+
+h1, h2, h3 {
+
+}
+p {
+
+}
+
+a {
+
+}
+
+/*  Header Style  */
+#header {
+
+}
+
+/*  Navigation Style  */
+#nav {
+
+}
+
+/* Footer Style */
+#footer {
+
+}

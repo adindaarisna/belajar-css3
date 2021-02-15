@@ -1,0 +1,18 @@
+html,
+body {
+  height: 100%;
+  padding: 0;
+  margin: 0;
+  /* i dont know why but this trick does not really work */
+  background-image: url(photo3.jpg);
+  background-size: cover;
+  /* background-color:red;
+    background-blend-mode: screen; */
+}
+
+.hover {
+  /* this way works */
+  background: rgba(69, 1, 114, 0.548);
+  background-size: cover;
+  height: 100%;
+}

@@ -1,0 +1,30 @@
+.box-shadow1{
+    width: 30%;
+    margin: 50px auto 50px auto;
+    border:solid black;
+    box-shadow: 0px 0px 10px 5px rgba(128, 128, 128, 0.6), 0px 0px 10px 20px rgba(128, 128, 128, 0.1);
+}
+
+.container-2{
+    background: black;
+}
+
+.box-shadow2{
+    width: 30%;
+    margin: auto;
+    padding: 10px;
+}
+
+.box-shadow2 p{
+    padding: 10px;
+    background: white;
+    margin: 50px auto 50px auto;
+    box-shadow: 0px 0px 10px 5px rgba(255, 255, 255, 0.6), 0px 0px 10px 20px rgba(255, 255, 255, 0.3);
+}
+
+.box-shadow3{
+    padding: 10px;
+    width: 30%;
+    margin: 50px auto 50px auto;
+    box-shadow: 0px 0px 10px 5px rgba(0, 218, 189, 0.6), 0px 0px 20px 20px rgba(0, 218, 189, 0.4);
+}
