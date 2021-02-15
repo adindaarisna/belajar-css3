@@ -1,0 +1,24 @@
+.container p{
+    font-size: 1.5rem;
+    margin-left: 10%;
+}
+
+body::-webkit-scrollbar{
+    width: 0.8rem;
+}
+
+body::-webkit-scrollbar-track{
+    /* background: white; */
+}
+
+body::-webkit-scrollbar-thumb{
+    background: lightskyblue;
+    border-radius: 30px;
+}
+body::-webkit-scrollbar-thumb:hover{
+    background: rgb(44, 162, 235);
+}
+
+body::-webkit-scrollbar-button{
+    background: red;
+}

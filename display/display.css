@@ -1,0 +1,29 @@
+.box{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 1.4rem;
+}
+
+.box-red{
+    background-color: red;
+    display: block;
+}
+
+.box-grey{
+    background-color: grey;
+    display: contents;
+}
+
+.box-yellow{
+    background-color: yellow;
+    display: ;
+}
+
+.box-salmon{
+    /* this will it disappear like it does not even exsist */
+    background-color: salmon;
+    display: none;
+}
+
+.box-blue{
+    background-color: lightblue;
+}

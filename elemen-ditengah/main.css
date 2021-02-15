@@ -1,0 +1,17 @@
+.satu{
+    width: 80%;
+    margin: 10px 20px 30px 90px;
+    background: lightpink;
+}
+
+.dua{
+    /* cara membuat content di tengah secara vertikal dan horizontal
+    dengan memasukkan height dan line-height dengan nilai yang sama.
+    Tapi konten yang ditengah harus ada dalam satu tag <p>*/
+    width: 60%;
+    background: lightskyblue;
+    text-align: center;
+    height: 100vh;
+    line-height: 100vh;
+    margin: auto;
+}

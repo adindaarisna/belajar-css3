@@ -1,0 +1,20 @@
+p::selection{
+    background: lightsalmon;
+    color: white;
+}
+
+.caps-letter::first-letter{
+    font-size: 3rem;
+    font-weight: bolder;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+html{
+    /* kalo di klik akan pindah ke section yang diinginkan
+    secara smooth */
+    scroll-behavior: smooth;
+}
+
+.one, section{
+    height: 100vh;
+}
